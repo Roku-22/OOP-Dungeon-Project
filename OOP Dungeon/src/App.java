@@ -4,6 +4,7 @@ public class App {
     Scanner scanner = new Scanner(System.in);
     
     abstract class Characters {
+
         private String name;
         private String type;
         private int hp;
@@ -11,6 +12,10 @@ public class App {
 
         abstract String setName();
         abstract void attack();    
+        
+    }
+
+    public class Player{
         
     }
 
